@@ -7,8 +7,8 @@ The triangle starts with a single number, which is 1. Each subsequent row is for
 
 Here's an example of the first few rows of Pascal's triangle:
 
-      1
-     1 1
-    1 2 1
-   1 3 3 1
-  1 4 6 4 1
+      
+  
+
+
+
