@@ -1,4 +1,4 @@
-import java.io.*;
+import java.util.Scanner;
 class Iteration_approach {
  
 
@@ -20,7 +20,9 @@ public static void pascal_triangle(int n)
  
 
 public static void main (String[] args) {
-    int n = 6;
+    Scanner input = new Scanner(System.in);
+
+    int n = input.nextInt();
     Pascal_triangle(n);
 }
 }
