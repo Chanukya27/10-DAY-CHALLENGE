@@ -1,1 +1,26 @@
+import java.io.*;
+class Iteration_approach {
+ 
 
+public static void pascal_triangle(int n)
+{
+    for(int i = 1; i <= n; i++)
+    {
+         
+    int first_line = 1;
+    for(int j = 1; j <= i; j++)
+    {
+        
+        System.out.print(first_line+" ");
+        first_line = first_line * (i - j) / j;
+    }
+    System.out.println();
+    }
+}
+ 
+
+public static void main (String[] args) {
+    int n = 6;
+    Pascal_triangle(n);
+}
+}
